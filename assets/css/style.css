@@ -75,9 +75,9 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(42, 44, 57, 0.9);
 }
 
-#header.header-transparent {
+/*#header.header-transparent {
   background: transparent;
-}
+}*/
 
 #header.header-scrolled {
   background: rgba(42, 44, 57, 0.9);
