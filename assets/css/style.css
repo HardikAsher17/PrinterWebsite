@@ -334,6 +334,18 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
 }
 
+#hero .speccontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  height: 50vh;
+  padding-top: 50px;
+}
+
+
 #hero .carousel-container {
   display: flex;
   justify-content: center;
@@ -341,8 +353,8 @@ h1, h2, h3, h4, h5, h6 {
   flex-direction: column;
   text-align: center;
   position: relative;
-  height: 70vh;
-  padding-top: 60px;
+  height: 50vh;
+  padding-top: 50px;
 }
 
 #hero h2 {
