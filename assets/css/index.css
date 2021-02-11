@@ -260,6 +260,13 @@
     color: #fff;
     border-color: #ef6603;
   }
+
+  
+  .features .small-icon {
+    height: 70px;
+    width: 70px;
+    padding-right: 10px;
+  }
   
   @media (max-width: 768px) {
     .features .nav-link i {
@@ -310,18 +317,18 @@
   # Cta
   --------------------------------------------------------------*/
   .cta {
-    background: rgb(92, 91, 94);
+    background: rgb(255, 255, 255);
     padding: 80px 0;
   }
   
   .cta h3 {
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-size: 28px;
     font-weight: 700;
   }
   
   .cta p {
-    color: #fff;
+    color: rgb(0, 0, 0);
   }
   
   .cta .cta-btn {
@@ -340,8 +347,8 @@
   }
   
   .cta .cta-btn:hover {
-    background: #fff;
-    color: #ef6603;
+    background: #bd5102;
+    color: #fff;
   }
   
   @media (max-width: 1024px) {
