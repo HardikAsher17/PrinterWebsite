@@ -232,7 +232,7 @@
     border: 1px solid #d4d6df;
     padding: 15px;
     transition: 0.3s;
-    color: #2a2c39;
+    color: #141416;
     border-radius: 0;
     display: flex;
     align-items: center;
@@ -356,4 +356,10 @@
       justify-content: flex-end;
     }
   }
+
+  /* Header */
+
+header {
+  background-color: #ef6603;
+}
   
