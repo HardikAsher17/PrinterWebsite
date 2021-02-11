@@ -5,8 +5,9 @@
     width: 100%;
     overflow: hidden;
     position: relative;
-    background: linear-gradient(0deg, #2a2c39 0%, #33364a 100%);
+    background-color: black;
     padding: 0;
+    
   }
   
   #hero .speccontainer {
@@ -309,7 +310,7 @@
   # Cta
   --------------------------------------------------------------*/
   .cta {
-    background: #2a2c39;
+    background: rgb(92, 91, 94);
     padding: 80px 0;
   }
   
