@@ -261,6 +261,10 @@
     border-color: #ef6603;
   }
 
+  .nav-item{
+    padding: 10px 10px;
+  }
+
   
   .features .small-icon {
     height: 70px;
