@@ -252,15 +252,11 @@
   }
   
   .features .nav-link:hover {
-    color: #ef6603;
-  }
-  
-  .features .nav-link.active {
     background: #ef6603;
     color: #fff;
     border-color: #ef6603;
   }
-
+  
   .nav-item{
     padding: 10px 10px;
   }
