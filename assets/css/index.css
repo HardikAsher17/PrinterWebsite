@@ -7,10 +7,13 @@
     position: relative;
     background-color: black;
     padding: 0;
-    
+  }
+
+  #heroCarousel {
+    height: 500px;
   }
   
-  #hero .speccontainer {
+  .speccontainer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,7 +21,8 @@
     text-align: center;
     position: relative;
     height: 50vh;
-    padding-top: 50px;
+    /* padding-top: 30px; */
+    padding-bottom: 30px;
   }
   
   
@@ -31,6 +35,10 @@
     position: relative;
     height: 50vh;
     padding-top: 30px;
+  }
+
+  #hero .carousel-item {
+    padding-top: 150px;
   }
   
   #hero h2 {
@@ -202,6 +210,7 @@
   
   .about .content ul li {
     padding-left: 28px;
+    font-size: large;
     position: relative;
   }
   
@@ -220,6 +229,14 @@
   
   .about .content p:last-child {
     margin-bottom: 0;
+  }
+
+  .about .content p {
+    font-size: large;
+  }
+
+  .speccontainer .content p {
+    font-size: x-large;
   }
   
   /*--------------------------------------------------------------
