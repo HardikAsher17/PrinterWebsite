@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  height: 70px;
+  height: 80px;
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
@@ -94,7 +94,7 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  height: 60px;
 }
 
 
@@ -121,7 +121,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 5px 15px 7px 15px;
   margin-left: 5px;
   transition: 0.3s;
-  font-size: 14px;
+  font-size: 15px;
   border-radius: 50px;
   font-family: "Open Sans", sans-serif;
 }
@@ -139,7 +139,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 9998;
   border: 0;
   background: none;
-  font-size: 24px;
+  font-size: 30px;
   transition: all 0.4s;
   outline: none !important;
   line-height: 1;
