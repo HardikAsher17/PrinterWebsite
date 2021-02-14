@@ -10,7 +10,7 @@
     box-shadow: 0 2px 29px 0 rgba(68, 88, 144, 0.12);
     transition: all 0.4s ease-in-out;
     width: 100%;
-    height: 100%;
+    height: 300px;
   }
   
   .services .icon-box:hover {
@@ -51,6 +51,7 @@
     margin-left: 40px;
     line-height: 24px;
     margin-bottom: 0;
+    /* justify-content: center; */
   }
   
   /*--------------------------------------------------------------
