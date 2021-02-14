@@ -40,6 +40,7 @@
   .services .title a {
     color: #2a2c39;
     transition: ease-in-out 0.3s;
+    overflow: auto;
   }
   
   .services .title a:hover {
@@ -51,7 +52,9 @@
     margin-left: 40px;
     line-height: 24px;
     margin-bottom: 0;
-    /* justify-content: center; */
+    justify-content: center;
+    display: flex;
+    /* overflow: hidden; */
   }
   
   /*--------------------------------------------------------------
