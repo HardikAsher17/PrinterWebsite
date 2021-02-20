@@ -38,11 +38,14 @@
   }
 
   .services .product-image {
-    display: flex;
+    display: block;
+    text-align: center;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
     margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
     /* padding: 0; */
     
   }
@@ -70,6 +73,7 @@
     font-size: 22px;
     /* font-family: ; */
     margin-left: 40px;
+    margin-right: 40px;
     line-height: 24px;
     margin-bottom: 0;
     justify-content: center;
@@ -78,6 +82,9 @@
 
   .services .title {
     font-size: 45px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   /*--------------------------------------------------------------
