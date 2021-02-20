@@ -1,8 +1,14 @@
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+
+.services .row {
+  padding: 30px;
+  padding-top: 0px;
+}
+
 .services .icon-box {
-    padding: 30px;
+    padding-top: 0px;
     position: relative;
     overflow: hidden;
     border-radius: 10px;
@@ -10,7 +16,7 @@
     box-shadow: 0 2px 29px 0 rgba(68, 88, 144, 0.12);
     transition: all 0.4s ease-in-out;
     width: 100%;
-    height: 300px;
+    height: 600px;
   }
   
   .services .icon-box:hover {
@@ -23,18 +29,31 @@
     left: -20px;
     top: calc(50% - 30px);
   }
+
   
   .services .icon i {
     font-size: 64px;
     line-height: 1;
     transition: 0.5s;
   }
+
+  .services .product-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+    /* padding: 0; */
+    
+  }
   
   .services .title {
     margin-left: 40px;
     font-weight: 700;
-    margin-bottom: 15px;
-    font-size: 18px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    font-size: x-large;
+    text-align: center;
   }
   
   .services .title a {
@@ -48,13 +67,17 @@
   }
   
   .services .description {
-    font-size: 14px;
+    font-size: 22px;
+    /* font-family: ; */
     margin-left: 40px;
     line-height: 24px;
     margin-bottom: 0;
     justify-content: center;
     display: flex;
-    /* overflow: hidden; */
+  }
+
+  .services .title {
+    font-size: 45px;
   }
   
   /*--------------------------------------------------------------
@@ -283,11 +306,11 @@
   
   .faq .faq-list p {
     margin-bottom: 20px;
-    font-size: 15px;
+    font-size: large;
   }
   
   .faq .faq-list a.collapse {
-    color: #ef6603;
+    color: red;
   }
   
   .faq .faq-list a.collapsed {
@@ -295,10 +318,10 @@
   }
   
   .faq .faq-list a.collapsed:hover {
-    color: #ef6603;
+    color: #3b3a39;
   }
   
   .faq .faq-list a.collapsed i::before {
     content: "\eab2" !important;
   }
-  
+
