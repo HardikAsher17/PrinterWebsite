@@ -1,6 +1,10 @@
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
+body {
+  font-size: large;
+}
+
 .team {
     background: #fff;
     padding: 60px 0;
@@ -84,9 +88,32 @@
   /*--------------------------------------------------------------
   # Contact
   --------------------------------------------------------------*/
+  
+  .contact .section-title p {
+    padding-top: 20px;
+  }
+
+  .contact .btn {
+    background-color: #fc8129;
+    border-color: #fc8129;
+    color: white;
+  }
+  
   .contact .info {
     width: 100%;
     background: #fff;
+  }
+
+  .address h4 {
+    font-size: large;
+  }
+
+  .email h4 {
+    font-size: large;
+  }
+
+  .phone h4 {
+    font-size: large;
   }
   
   .contact .info i {

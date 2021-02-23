@@ -33,12 +33,12 @@
     flex-direction: column;
     text-align: center;
     position: relative;
-    height: 50vh;
-    padding-top: 30px;
+    height: 30vh;
+    padding-top: 200px;
   }
 
-  #hero .carousel-item {
-    padding-top: 150px;
+  #hero .carousel-item img {
+    padding-top: 0px;
   }
   
   #hero h2 {
@@ -92,18 +92,59 @@
   }
   
   @media (min-width: 1024px) {
+
+    #hero .carousel-item {
+      padding-top: 40px;
+    }
+    
+    #hero .carousel-container img {
+      padding-top: 70px;
+    }
+    
     #hero p {
       width: 60%;
     }
     #hero .carousel-control-prev, #hero .carousel-control-next {
       width: 5%;
     }
+
+    
   }
   
   @media (max-width: 768px) {
+
     #hero .carousel-container {
-      height: 90vh;
+      height: 50vh;
     }
+
+    #hero .carousel-container #img1 {
+      height: 470px;
+      width: 450px;
+      padding-bottom: 20px;
+    }
+
+    #hero .carousel-container #img2 {
+      padding-top: 0;
+    }
+
+    #hero .carousel-container #img3 {
+      height: 450px;
+      width: 450px;
+    }
+
+    .carousel-control-prev {
+      padding-top: 150px;
+    }
+
+    .carousel-control-next-icon {
+      padding-top: 150px;
+    }
+
+    /* #hero .carousel-container img {
+      height: 500px;
+      width: 300px;
+    } */
+
     #hero h2 {
       font-size: 28px;
     }
