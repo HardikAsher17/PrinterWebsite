@@ -7,10 +7,14 @@
     position: relative;
     background-color: black;
     padding: 0;
+    align-items: center;
   }
 
   #heroCarousel {
-    height: 500px;
+    /* height: 500px; */
+    padding: 50px;
+    margin-bottom: 150px;
+    align-items: center;
   }
   
   .about .speccontainer {
