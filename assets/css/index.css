@@ -13,7 +13,7 @@
     height: 500px;
   }
   
-  .speccontainer {
+  .about .speccontainer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,12 +33,12 @@
     flex-direction: column;
     text-align: center;
     position: relative;
-    height: 50vh;
-    padding-top: 30px;
+    height: 30vh;
+    padding-top: 200px;
   }
 
-  #hero .carousel-item {
-    padding-top: 150px;
+  #hero .carousel-item img {
+    padding-top: 0px;
   }
   
   #hero h2 {
@@ -92,18 +92,79 @@
   }
   
   @media (min-width: 1024px) {
+
+    #hero .carousel-item {
+      padding-top: 10px;
+    }
+    
+    #hero .carousel-container img {
+      padding-top: 30px;
+    }
+    
     #hero p {
       width: 60%;
     }
     #hero .carousel-control-prev, #hero .carousel-control-next {
       width: 5%;
+      height: 600px;
     }
+
+    
+  }
+
+  @media (max-width: 1024px) {
+
+    #hero .carousel-item {
+      padding-top: 10px;
+    }
+    
+    #hero .carousel-container img {
+      padding-top: 60px;
+    }
+    
+    #hero p {
+      width: 60%;
+    }
+    #hero .carousel-control-prev, #hero .carousel-control-next {
+      width: 5%;
+      height: 600px;
+    }
+
+    
   }
   
   @media (max-width: 768px) {
+
     #hero .carousel-container {
-      height: 90vh;
+      height: 50vh;
     }
+
+    #hero .carousel-container #img1 {
+      padding-top: 45px;
+      height: 400px;
+      width: 300px;
+    }
+
+    #hero .carousel-container #img2 {
+      padding-top: 55px;
+      height: 260px;
+      width: 300px;
+    }
+
+    #hero .carousel-container #img3 {
+      padding-top: 45px;
+      height: 350px;
+      width: 300px;
+    }
+
+    .carousel-control-prev {
+      padding-top: 100px;
+    }
+
+    .carousel-control-next-icon {
+      padding-top: 100px;
+    }
+
     #hero h2 {
       font-size: 28px;
     }
@@ -194,6 +255,7 @@
   /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+
 .about {
     padding-top: 80px;
   }
@@ -206,6 +268,10 @@
   .about .content ul {
     list-style: none;
     padding: 0;
+  }
+
+  .about .container .speccontainer .content{
+    padding-bottom: 150px;
   }
   
   .about .content ul li {
@@ -227,9 +293,6 @@
     line-height: 1;
   }
   
-  .about .content p:last-child {
-    margin-bottom: 0;
-  }
 
   .about .content p {
     font-size: large;
