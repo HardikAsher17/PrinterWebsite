@@ -12,6 +12,12 @@
 }
 
 .services .icon-box {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
     padding-top: 0px;
     position: relative;
     overflow: hidden;
@@ -42,7 +48,8 @@
   }
 
   .services .product-image {
-    display: block;
+    object-fit: fill;
+    display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -50,6 +57,8 @@
     margin-bottom: 0;
     margin-left: auto;
     margin-right: auto;
+    height: 250px;
+    width: 250px;
     /* padding: 0; */
     
   }

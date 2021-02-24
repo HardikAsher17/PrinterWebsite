@@ -42,7 +42,8 @@
   }
 
   .services .product-image {
-    display: block;
+    object-fit: fill;
+    display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -50,6 +51,8 @@
     margin-bottom: 0;
     margin-left: auto;
     margin-right: auto;
+    height: 250px;
+    width: 250px;
     /* padding: 0; */
     
   }
