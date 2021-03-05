@@ -177,7 +177,12 @@
 
 @media (min-width: 768px) {
   .icon-box {
-    height: 1000px;
+    height: 750px;
+  }
+
+@media (min-width: 1100px) {
+  .icon-box {
+    height: 600px;
   }
 
   .testimonials {
